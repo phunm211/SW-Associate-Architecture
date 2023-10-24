@@ -23,6 +23,8 @@ Each diagram is consist of multiple entites for architectural representation, ca
 
 For the shake of rendering a diagram into a graphical object to display on a screen, or save it as a picture, it required to use a Rendering API. In general, we can provide informations of 3D coordinates then the graphic pipeline transforms these to colored 2D pixel on screen. The graphic pipeline can be divided into several steps which can be exexucted parallely on GPU. https://learnopengl.com/Getting-started/Hello-Triangle
 
+(On Windows: GLViewport)
+
 On this document, we proposed to design an ADL Framework to support editing and rendering ADL by a Graphic API. The Framework can be specificly implemented on Windows operating system under a third-party ADL UI Application.
 //TODO: Vẽ sơ đồ ADL hoạt động, từ file -> diagram object -> graphic object
 //TOD: Stakeholder table
