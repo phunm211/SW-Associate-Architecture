@@ -12,7 +12,7 @@ To support architecture-based development, formal modelling notations, analysis 
 - Work Assignment View
 - Install View
 
-Each diagram is consist of multiple entites for architectural representation, called Element. As discribed in Figure 1, it can be classified into five types:
+Each diagram consists of multiple entities for architectural representation, called Element. As described in Figure 1, it can be classified into five types:
 - Component
 - Connector
 - System
@@ -21,24 +21,36 @@ Each diagram is consist of multiple entites for architectural representation, ca
 
 ![image](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/6befa87d-faf9-490b-9900-be01d7ee979d)
 
-For the shake of rendering a diagram into a graphical object to display on a screen, or save it as a picture, it required to use a Rendering API. In general, we can provide informations of 3D coordinates then the graphic pipeline transforms these to colored 2D pixel on screen. The graphic pipeline can be divided into several steps which can be exexucted parallely on GPU. https://learnopengl.com/Getting-started/Hello-Triangle
+For the sake of rendering a diagram into a graphical object to display on a screen, or saving it as a picture, it is required to use a Rendering API. In general, we can provide information of 3D coordinates, and then the graphic pipeline transforms these into colored 2D pixels on the screen. The graphic pipeline can be divided into several steps which can be executed parallelly on GPU. https://learnopengl.com/Getting-started/Hello-Triangle
 
 (On Windows: GLViewport)
 
-On this document, we proposed to design an ADL Framework to support editing and rendering ADL by a Graphic API. The Framework can be specificly implemented on Windows operating system under a third-party ADL UI Application.
+In this document, we proposed to design an ADL Framework to support editing and rendering ADL by a Graphic API. The Framework can be specifically implemented on the Windows operating system under a third-party ADL UI Application.
 //TODO: Vẽ sơ đồ ADL hoạt động, từ file -> diagram object -> graphic object
 //TOD: Stakeholder table
-Stake holder | Interest in architecture
+Stakeholder | Interest in architecture
 
 **_Task 2: Define the input and output of the system_**
 ## 2. Requirements
 ### 2.1. Functional Requirements
+
 ### 2.2. Non-functional Requirements
 ### 2.3. Quality Attributes
 ## 3. Architecture
 ## 4. Modules
 # Appendix
 ## A. Domain Model
+
+![UseCase drawio](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/058361fe-6b91-4118-9158-f6446d2d1767)
+
+| **UC**          |   |
+|-----------------|---|
+| Description     |   |
+| Actor           |   |
+| Pre-condition   |   |
+| Post-condition  |   |
+| Basic flow      |   |
+| Additional Flow |   |
 ## B. Quality Scenarios
 ## C. Quality Scenarios Analysis
 ## D. Candidate Architectures
