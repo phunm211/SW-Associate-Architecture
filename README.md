@@ -4,7 +4,23 @@ _**Task 1: Draw the operation and business environment of the system**_
 
 With the aim of solving a problem by a computer, programmers need to understand that problem, then learn a programming language and use it to tells a computer how to solve that problem over and over. But later, problems in real world has been elvolved to be much more complexity and abtract day by day. To adapt with the changes of problem's requirements, it is necessary to draw a bigger picture of how a computer solve a problem and from that, we can find a more general ways to resolve the problem, called Software architecture. It is a research field which make fundamental structure choices for designing a system, shift developer's focus from lines-of-code to coarser-grained architectural elements (software components and connectors) and their overall interconnection structure. A good Sofware architecture can helps the organization to recude cost of developing applications and increase the potential for maintaining and extending the further products.
 
-To support architecture-based development, formal modelling notations, analysis and development tools that operate on architectual specifications are needed. Architecture description languages (ADLs) has been proposed as the answer. Generally, an ADL for software development focuses on high-level structure of the overall application to present architect's ideas and thinkings rather than the implementation of any specific source module.
+To support architecture-based development, formal modelling notations, analysis and development tools that operate on architectual specifications are needed. Architecture description languages (ADLs) has been proposed as the answer. Generally, an ADL for software development focuses on high-level structure of the overall application to present architect's ideas and thinkings rather than the implementation of any specific source module. ADL can be represent as fews type of diagrams as:
+- Component and Connector View
+- Deployment View
+- Sequence Diagram
+- Module View
+- Work Assignment View
+- Install View
+
+Each diagram is consist of multiple entites for architectural representation, called ... As discribed in Figure 1, it can be classified into five types:
+- Component
+- Connector
+- System
+- Port
+- Role
+
+![image](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/6befa87d-faf9-490b-9900-be01d7ee979d)
+
 
 **_Task 2: Define the input and output of the system_**
 ## 2. Requirements
