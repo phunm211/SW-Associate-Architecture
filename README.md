@@ -43,6 +43,15 @@ Stakeholder | Interest in architecture
 
 ![UseCase drawio](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/058361fe-6b91-4118-9158-f6446d2d1767)
 
+| **UC**          | UC_01: Create Diagram |
+|-----------------|---|
+| Description     | Creating an empty diagram  |
+| Actor           | Application  |
+| Pre-condition   |   |
+| Post-condition  |   |
+| Basic flow      |   |
+| Additional Flow |   |
+
 | **UC**          |   |
 |-----------------|---|
 | Description     |   |
