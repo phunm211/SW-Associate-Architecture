@@ -13,3 +13,12 @@
 - Xóa Element
 - Xuất ra diagram ra ảnh
 - Xuất ra code
+
+Bảng:
+UC
+Description
+Actor
+Pre-Condition
+Post-Condition
+Basic Flow
+Additional Flow
