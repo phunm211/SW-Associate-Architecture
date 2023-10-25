@@ -47,21 +47,21 @@ Stakeholder | Interest in architecture
 
 ![UseCase drawio](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/058361fe-6b91-4118-9158-f6446d2d1767)
 
-| **UC**          | UC_01: Create Diagram |
+| **UC_01**          | Create Diagram |
 |-----------------|---|
 | Description     | Creating an empty diagram  |
 | Actor           | Application  |
 | Pre-condition   | None  |
 | Post-condition  | A empty diagram has been created<br />A blank graphic object has been create |
-| Basic flow      |   |
+| Basic flow      | 1. Application requests to create diagram to App API <br /> 2. App API requests Diagram Controller to create a diagram <br /> 3. Diagram  Controller create a Diagram object <br /> 4. Diagram Controller request Graphic Controller to create a Graphic object <br /> Graphic Controller create a Graphic object <br /> Graphic Controller register a callback to Graphic API |
 | Additional Flow |   |
 
-| **UC**          |   |
+| **UC_02**          | Render diagram |
 |-----------------|---|
-| Description     |   |
-| Actor           |   |
-| Pre-condition   |   |
-| Post-condition  |   |
+| Description     | Rendering a diagram object to Bitmap object  |
+| Actor           | Render API Provider  |
+| Pre-condition   | Diagram has been loaded / created  |
+| Post-condition  | A Bitmap object has been created  |
 | Basic flow      |   |
 | Additional Flow |   |
 ## B. Quality Scenarios
