@@ -11,7 +11,8 @@ To support architecture-based development, formal modelling notations, analysis 
 - Work Assignment View
 - Install View
 
-![image]("Screenshot_20231024_151050_Samsung Internet.jpg")
+![image](Screenshot_20231024_151050_Samsung%20Internet.jpg)
+Figure 1. 
 
 Each diagram consists of multiple entities for architectural representation, called Element. As described in Figure 1, it can be classified into five types:
 - Component
@@ -23,11 +24,13 @@ Each diagram consists of multiple entities for architectural representation, cal
 
 ![image](AdlWorkflow.drawio.png)
 
-Figure 1. show the workflow of an ADL system. From an ADL file, system will convert it into a Diagram object, which contains the information of Diagram, lists of Elements and it's relationship. Next, Diagram object is rendered to a Bitmap for providing a graphical view for user.
+Figure 2. 
+
+Figure 2. shows the workflow of an ADL system. From an ADL file, the system will convert into a Diagram object, which contains the information of the Diagram, lists of Elements, and it's relationships. Next, the Diagram object is rendered to a Bitmap to provide a graphical view for the user.
 
 ![image](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/6befa87d-faf9-490b-9900-be01d7ee979d)
 
-For the sake of rendering a diagram into a Bitmapa object to display on a screen, or saving it as a picture, it is required to use a Rendering API. In general, we can provide information of 3D coordinates, and then the graphic pipeline transforms these into colored 2D pixels on the screen. The graphic pipeline can be divided into several steps which can be executed parallelly on GPU. https://learnopengl.com/Getting-started/Hello-Triangle
+For the sake of rendering a diagram into a Bitmap object to display on a screen, or saving it as a picture, it is required to use a Rendering API. In general, we can provide information of 3D coordinates, and then the graphic pipeline transforms these into colored 2D pixels on the screen. The graphic pipeline can be divided into several steps which can be executed parallelly on GPU. https://learnopengl.com/Getting-started/Hello-Triangle
 
 (On Windows: GLViewport)
 
