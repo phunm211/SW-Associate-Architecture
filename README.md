@@ -2,8 +2,8 @@
 ## 1. Overview
 _**Task 1: Draw the operation and business environment of the system**_
 
-With the aim of solving a problem by a computer, programmers need to understand that problem, then learn a programming language and use it to tells a computer how to solve that problem over and over. But later, problems in real world has been elvolved to be much more complexity and abtract day by day. To adapt with the changes of problem's requirements, it is necessary to draw a bigger picture of how a computer solve a problem and from that, we can find a more general ways to resolve the problem, called Software architecture. It is a research field which make fundamental structure choices for designing a system, shift developer's focus from lines-of-code to coarser-grained architectural elements (software components and connectors) and their overall interconnection structure. A good software architecture can helps the organization to recude cost of developing applications and increase the potential for maintaining and extending the further products.
-To support architecture-based development, formal modelling notations, analysis and development tools that operate on architectual specifications are needed. Architecture description languages (ADLs) has been proposed as the answer. Generally, an ADL for software development focuses on high-level structure of the overall application to present architect's ideas and thinkings rather than the implementation of any specific source module. ADL can be represent as fews type of diagrams as:
+With the aim of solving a problem by a computer, programmers need to understand that problem, then learn a programming language and use it to tell a computer how to solve that problem over and over. But later, problems in the real world has been evolved to be much more complex and abstract day by day. To adapt with the changes in the problem's requirements, it is necessary to draw a bigger picture of how a computer solves a problem, and from that, we can find a more general way to resolve the problem, called Software architecture. It is a research field that makes fundamental structure choices for designing a system and shifts the developer's focus from lines-of-code to coarser-grained architectural elements (software components and connectors) and their overall interconnection structure. A good software architecture can help the organization to reduce the cost of developing applications and increase the potential for maintaining and extending further products.
+To support architecture-based development, formal modeling notations, analysis and development tools that operate on architectural specifications are needed. Architecture description languages (ADLs) has been proposed as the answer. Generally, an ADL for software development focuses on the high-level structure of the overall application to present the architect's ideas and thinking rather than the implementation of any specific source module. ADL can be represented as few type of diagrams as:
 - Component and Connector View
 - Deployment View
 - Sequence Diagram
@@ -21,22 +21,22 @@ Each diagram consists of multiple entities for architectural representation, cal
 - Port
 - Role
 
-
 ![image](AdlWorkflow.drawio.png)
 
 Figure 2. 
 
-Figure 2. shows the workflow of an ADL system. From an ADL file, the system will convert into a Diagram object, which contains the information of the Diagram, lists of Elements, and it's relationships. Next, the Diagram object is rendered to a Bitmap to provide a graphical view for the user.
+Figure 2. shows the workflow of an ADL system. From an ADL file, the system will convert into a Diagram object, which contains the information of the Diagram, lists of Elements, and its relationships. Next, the Diagram object is rendered to a Bitmap to provide a graphical view for the user.
 
-![image](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/6befa87d-faf9-490b-9900-be01d7ee979d)
+![image](https://opentechschool-brussels.github.io/intro-to-webGL-and-shaders/assets/log1_graphicPipeline.jpg)
 
-For the sake of rendering a diagram into a Bitmap object to display on a screen, or saving it as a picture, it is required to use a Rendering API. In general, we can provide information of 3D coordinates, and then the graphic pipeline transforms these into colored 2D pixels on the screen. The graphic pipeline can be divided into several steps which can be executed parallelly on GPU. https://learnopengl.com/Getting-started/Hello-Triangle
+Figure 3.
 
-(On Windows: GLViewport)
+For the sake of rendering a diagram into a Bitmap object to display on a screen, or saving it as a picture, it is required to use a Rendering API. Figure 3. illustrates the general pipeline of common Rendering API. In general, we can provide information of 3D coordinates, and then the graphic pipeline transforms these into colored 2D pixels on the screen. The graphic pipeline can be divided into several steps which can be executed parallelly on GPU. The processing cores run small programs on the GPU for each step of the pipeline. These small programs are called shaders. There are two shaders that are programmable: vertex shader and fragment shader. To sum up, 
+
 
 In this document, we proposed to design an ADL Framework to support editing and rendering ADL by a Graphic API. The Framework can be specifically implemented on the Windows operating system under a third-party ADL UI Application.
 
-![SystemBoundary drawio](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/bd13d93e-5e2c-43d4-adf6-3ef7e86a1fec)
+![SystemBoundary drawio](SystemBoundary.drawio.png)
 
 //TOD: Stakeholder table
 Stakeholder | Interest in architecture
