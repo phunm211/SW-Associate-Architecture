@@ -70,6 +70,16 @@ Stakeholder | Interest in architecture
 | Post-condition  | A Bitmap object has been created  |
 | Basic flow      |   |
 | Additional Flow |   |
+
+| **UC_03** | **Import ADL file** |
+|---|---|
+| Description | Read a ADL file and convert it to a Diagram object |
+| Actor | ADL Application |
+| Pre-condition | None |
+| Post-condition | A Diagram object has been created |
+| Basic flow | 1. ADL Application request App API to import an ADL file<br>2. App API requests ADL File Controller to import an ADL file<br>3. ADL File Controller reads the ADL file from storage<br>4. ADL File Controller saves the ADL file as a File object<br>5. ADL File Controller request File |
+| Additional Flow |  | 
+
 ## B. Quality Scenarios
 ## C. Quality Scenarios Analysis
 ## D. Candidate Architectures
