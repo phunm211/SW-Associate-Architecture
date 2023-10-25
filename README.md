@@ -31,8 +31,7 @@ Figure 2. shows the workflow of an ADL system. From an ADL file, the system will
 
 Figure 3.
 
-For the sake of rendering a diagram into a Bitmap object to display on a screen, or saving it as a picture, it is required to use a Rendering API. Figure 3. illustrates the general pipeline of common Rendering API. In general, we can provide information of 3D coordinates, and then the graphic pipeline transforms these into colored 2D pixels on the screen. The graphic pipeline can be divided into several steps which can be executed parallelly on GPU. The processing cores run small programs on the GPU for each step of the pipeline. These small programs are called shaders. There are two shaders that are programmable: vertex shader and fragment shader. To sum up, 
-
+For the sake of rendering a diagram into a Bitmap object to display on a screen, or saving it as a picture, it is required to use a Rendering API. Figure 3. illustrates the general pipeline of common Rendering API. In general, we can provide information of 3D coordinates, and then the graphic pipeline transforms these into colored 2D pixels on the screen. The graphic pipeline can be divided into several steps which can be executed parallelly on GPU. The processing cores run small programs on the GPU for each step of the pipeline. These small programs are called shaders. There are two shaders that are programmable: vertex shader and fragment shader.
 
 In this document, we proposed to design an ADL Framework to support editing and rendering ADL by a Graphic API. The Framework can be specifically implemented on the Windows operating system under a third-party ADL UI Application.
 
