@@ -51,8 +51,8 @@ Stakeholder | Interest in architecture
 |-----------------|---|
 | Description     | Creating an empty diagram  |
 | Actor           | Application  |
-| Pre-condition   |   |
-| Post-condition  |   |
+| Pre-condition   | None  |
+| Post-condition  | A empty diagram has been created\nA blank graphic object has been create |
 | Basic flow      |   |
 | Additional Flow |   |
 
