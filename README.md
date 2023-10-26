@@ -58,7 +58,7 @@ In the below table, we illustrate the Business Driver related to our system.
 # Appendix
 ## A. Domain Model
 
-![UseCase drawio](https://github.com/phunm211/SW-Associate-Architecture/assets/19267057/058361fe-6b91-4118-9158-f6446d2d1767)
+![UseCase drawio](UseCase.drawio.png)
 
 | **UC_01**          | Create Diagram |
 |-----------------|---|
