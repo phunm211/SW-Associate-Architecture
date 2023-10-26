@@ -11,7 +11,7 @@ To support architecture-based development, formal modeling notations, analysis a
 - Work Assignment View
 - Install View
 
-![image](Screenshot_20231024_151050_Samsung%20Internet.jpg)
+![image](img/Screenshot_20231024_151050_Samsung%20Internet.jpg)
 Figure 1. Diagram's elements
 
 Each diagram consists of multiple entities for architectural representation, called Element. As described in Figure 1, it can be classified into five types:
@@ -21,7 +21,7 @@ Each diagram consists of multiple entities for architectural representation, cal
 - Port
 - Role
 
-![image](AdlWorkflow.drawio.png)
+![image](img/AdlWorkflow.drawio.png)
 
 Figure 2. Workflow of an ADL sytem
 
@@ -33,7 +33,7 @@ Figure 3. The general pipeline of a common Graphic API (OpenGL)
 
 For the sake of rendering a diagram into a Bitmap object to display on a screen, or saving it as a picture, it is required to use a Graphic API. Figure 3. illustrates the general pipeline of a common Graphic API. In general, we can provide information of 3D coordinates, geometries and texture materials (fragment), and then the graphic pipeline transforms these into colored 2D pixels on the screen parallel on GPU.
 
-![SystemBoundary drawio](SystemBoundary.drawio.png)
+![SystemBoundary drawio](img/SystemBoundary.drawio.png)
 
 Figure 4. The system boundary of the proposed ADL Framework
 
@@ -58,7 +58,7 @@ In the below table, we illustrate the Business Driver related to our system.
 # Appendix
 ## A. Domain Model
 
-![UseCase drawio](UseCase.drawio.png)
+![UseCase drawio](img/UseCase.drawio.png)
 
 | **UC_01**          | Create Diagram |
 |-----------------|---|
