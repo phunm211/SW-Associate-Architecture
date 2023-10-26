@@ -37,8 +37,12 @@ In this document, we proposed to design an ADL Framework to support editing and 
 
 ![SystemBoundary drawio](SystemBoundary.drawio.png)
 
-//TOD: Stakeholder table
-Stakeholder | Interest in architecture
+| **Stakeholder** | **Interest in architecture** |
+|---|---|
+| User | - Fast Bitmap rendering and quick export to Image/ADL file<br>- Diagram and Element style can be customized (color, line width, shape, etc...) |
+| ADL Application Developer | - Run stability<br>- Provide more useful features<br>- Less resource consumtion (CPU, Memory) |
+| Project Manager | - Less Development & Maintenance cost |
+| Technical Leader | - Easily to expand more features and support more Render API |
 
 **_Task 2: Define the input and output of the system_**
 ## 2. Requirements
