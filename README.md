@@ -37,7 +37,7 @@ For the sake of rendering a diagram into a Bitmap object to display on a screen,
 
 Figure 4. The system boundary of the proposed ADL Framework
 
-In this document, we proposed to design an ADL Framework to support editing and rendering ADL. Figure 4. describes the boundary of our ADL Framework system. The Framework is specifically implemented on Windows OS and provides an interface for ADL UI Application to call our API function. We also need a Graphic API to render the Diagram into a Bitmap object. Besides, it's required to have a Storage component for reading and writing files and also a Graphic View for showing our rendered Bitmap. Nevertheless, we don't have a plan for using any external Storage or Graphic View component that is not provided by Windows OS, so we decided to not take them into account and will mention it as a part of the environment system.
+In this document, we proposed to design an ADL Framework to support editing and rendering ADL. Figure 4. describes the boundary of our ADL Framework system. The Framework is specifically implemented on Windows OS and provides an interface for ADL UI Application to call our API function. We also need a Graphic API, which is given by a Graphic API Provider to render the Diagram into a Bitmap object. Besides, it's required to have a Storage component for reading and writing files and also a Graphic View for showing our rendered Bitmap. Nevertheless, we don't have a plan for using any external Storage or Graphic View component that is not provided by Windows OS, so we decided to not take them into account and will mention it as a part of the environment system.
 
 In the below table, we illustrate the Business Driver related to our system.
 | **Stakeholder** | **Interest in architecture** |
