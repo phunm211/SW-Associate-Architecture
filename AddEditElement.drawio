@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" modified="2023-10-26T10:47:56.305Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Safari/537.36" etag="Aa9-8AWjf4iyxMRmcJQR" version="22.0.8" type="github">
+  <diagram name="Page-1" id="zBqm8ygghPVLinz1BmMf">
+    <mxGraphModel dx="1394" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-23" value="ADL Framework" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fillColor=#ffff88;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="-20" width="560" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="G-GRrxJtMZ8-qGgRV_3n-1" target="G-GRrxJtMZ8-qGgRV_3n-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-11" value="1. Import ADL File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="G-GRrxJtMZ8-qGgRV_3n-5">
+          <mxGeometry x="-0.0413" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-1" value="ADL Application" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="G-GRrxJtMZ8-qGgRV_3n-2" target="G-GRrxJtMZ8-qGgRV_3n-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-12" value="2. Import ADL File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="G-GRrxJtMZ8-qGgRV_3n-9">
+          <mxGeometry x="-0.089" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-2" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;App API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;size=80;" vertex="1" parent="1">
+          <mxGeometry x="210" y="20" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="G-GRrxJtMZ8-qGgRV_3n-3" target="G-GRrxJtMZ8-qGgRV_3n-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-17" value="5. Save Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="G-GRrxJtMZ8-qGgRV_3n-16">
+          <mxGeometry x="-0.0642" y="3" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-18" value="6. Request callbacks" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry y="11" relative="1" as="geometry">
+            <mxPoint x="400.08666666666653" y="401" as="sourcePoint" />
+            <mxPoint x="679.9200000000002" y="401" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-3" value="Diagram Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;size=90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="80" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-4" value="Diagram" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;size=80;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="80" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" edge="1" parent="1" source="G-GRrxJtMZ8-qGgRV_3n-6" target="G-GRrxJtMZ8-qGgRV_3n-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-22" value="8. Render Bitmap (UC_02)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="G-GRrxJtMZ8-qGgRV_3n-21">
+          <mxGeometry x="0.2159" y="-3" relative="1" as="geometry">
+            <mxPoint x="15" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-6" value="Render API Provider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="770" y="40" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="G-GRrxJtMZ8-qGgRV_3n-8" target="G-GRrxJtMZ8-qGgRV_3n-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-20" value="7. Request callbacks" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="G-GRrxJtMZ8-qGgRV_3n-19">
+          <mxGeometry x="-0.073" y="5" relative="1" as="geometry">
+            <mxPoint x="3" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-8" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Render API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;size=80;" vertex="1" parent="1">
+          <mxGeometry x="630" y="20" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-10" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="G-GRrxJtMZ8-qGgRV_3n-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="200" />
+              <mxPoint x="450" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-13" value="3. Read ADL File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="G-GRrxJtMZ8-qGgRV_3n-10">
+          <mxGeometry x="-0.0138" y="-2" relative="1" as="geometry">
+            <mxPoint x="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-14" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.9966666666665" y="280" as="sourcePoint" />
+            <mxPoint x="401.33" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450.33" y="280" />
+              <mxPoint x="450.33" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-15" value="4. Convert ADL File&lt;br&gt;to Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="G-GRrxJtMZ8-qGgRV_3n-14">
+          <mxGeometry x="-0.0138" y="-2" relative="1" as="geometry">
+            <mxPoint x="34" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
