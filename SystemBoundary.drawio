@@ -1,0 +1,57 @@
+<mxfile host="Electron" modified="2023-10-26T16:05:21.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="braR94cVeDq-CpSc7yux" version="22.0.3" type="device">
+  <diagram name="Trang-1" id="KFzge3xoaqVoeOsGdTEW">
+    <mxGraphModel dx="1101" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pMCDGWCpw_Z-ZE_u98ok-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pMCDGWCpw_Z-ZE_u98ok-2" value="ADL Application" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pMCDGWCpw_Z-ZE_u98ok-5" value="&lt;b&gt;&amp;lt;&amp;lt;system&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;ADL Framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="470" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pMCDGWCpw_Z-ZE_u98ok-18" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;" parent="1" source="pMCDGWCpw_Z-ZE_u98ok-2" target="pMCDGWCpw_Z-ZE_u98ok-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="425" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pMCDGWCpw_Z-ZE_u98ok-19" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="185" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pMCDGWCpw_Z-ZE_u98ok-20" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.404;entryY=0.284;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pMCDGWCpw_Z-ZE_u98ok-2" target="pMCDGWCpw_Z-ZE_u98ok-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="235" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pMCDGWCpw_Z-ZE_u98ok-21" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;" parent="1" target="pMCDGWCpw_Z-ZE_u98ok-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pMCDGWCpw_Z-ZE_u98ok-22" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="185" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="phR-fpStf2SeXHnw9IyS-2" value="Graphic API Provider" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phR-fpStf2SeXHnw9IyS-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="pMCDGWCpw_Z-ZE_u98ok-5" target="phR-fpStf2SeXHnw9IyS-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phR-fpStf2SeXHnw9IyS-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;endSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="phR-fpStf2SeXHnw9IyS-2" target="phR-fpStf2SeXHnw9IyS-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phR-fpStf2SeXHnw9IyS-5" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;fillColor=none;strokeColor=none;resizable=0;perimeter=centerPerimeter;rotatable=0;allowArrows=0;points=[];outlineConnect=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="185" width="10" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
