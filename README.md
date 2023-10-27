@@ -105,6 +105,24 @@ Figure illustrates the operational behavior for "UC_01: Create Diagram"
 ### B.4. Security
 - QS_16: File can be encrypted and decrypted by Digital Right Management (DRM)
 ## C. Quality Scenarios Analysis
+| **Category** | **ID** | **Scenario** | **Importance** | **Difficult** | **Requirement** |
+|---|---|---|---|---|---|
+| Performance | QS_01 |  | H | L |  |
+|  | QS_02 |  | H | H |  |
+|  | QS_03 |  | H | M |  |
+|  | QS_04 |  | H | L |  |
+|  | QS_05 |  | H | L |  |
+|  | QS_06 |  | H | L |  |
+|  | QS_07 |  | L | H |  |
+|  | QS_08 |  | L | L |  |
+|  | QS_09 |  | H | H |  |
+|  | QS_10 |  | H | H |  |
+|  | QS_11 |  | M | H |  |
+|  | QS_12 |  | H | M |  |
+|  | QS_13 |  | H | M |  |
+|  | QS_14 |  | H | H |  |
+|  | QS_15 |  | L | L |  |
+|  | QS_16 |  | L | H |  |
 ## D. Candidate Architectures
 ## E. Candidate Architecture Evaluation
 ## F. Architecture Design
