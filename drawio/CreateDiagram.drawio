@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T04:53:31.853Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Safari/537.36" etag="lJSnWCM57jfqu3DOeJfL" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T04:55:00.240Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Safari/537.36" etag="jqPHPo7a3xW3T7jX-t--" version="22.0.8" type="github">
   <diagram name="Page-1" id="wwmzQwGy2WVfqCxfGOJC">
     <mxGraphModel dx="961" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,13 +31,13 @@
             <mxPoint x="320" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-9" value="4. Render Bitmap (UC_02)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-9" value="4. Register callbacks" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="360" y="320" as="sourcePoint" />
             <mxPoint x="480" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-10" value="5. Show Bitmap" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-10" value="6. Show Bitmap" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0013" relative="1" as="geometry">
             <mxPoint x="480" y="400" as="sourcePoint" />
             <mxPoint x="120" y="400" as="targetPoint" />
@@ -56,6 +56,12 @@
         <mxCell id="eDvLhsXWexeAyYfK2yH7-12" value="3. Create Diagram" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eDvLhsXWexeAyYfK2yH7-11">
           <mxGeometry x="-0.0426" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-13" value="5. Render Bitmap (UC_02)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="eDvLhsXWexeAyYfK2yH7-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
