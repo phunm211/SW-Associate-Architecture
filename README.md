@@ -63,7 +63,11 @@ Functional requirements of this project are described in Figure 5. Use case "UC_
 ## A. Domain Model
 ![img](img/DomainModel.drawio.png)
 
+Figure shows Domain Model (conceptual architecture) of ADL Framework.
+
 ![img](img/usecases_detail/Create%20Diagram.drawio.png)
+
+Figure illustrates the operational behavior for "UC_01: Create Diagram"
 
 ![img](img/usecases_detail/Render%20Bitmap.drawio.png)
 
