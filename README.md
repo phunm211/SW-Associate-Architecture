@@ -83,36 +83,14 @@ Figure illustrates the operational behavior for "UC_01: Create Diagram"
 
 ![img](img/usecases_detail/SaveDiagramAsADLfile.drawio.png)
 
-
-
-| **UC_01**          | Create Diagram |
-|-----------------|---|
-| Description     | Creating an empty diagram  |
-| Actor           | Application  |
-| Pre-condition   | None  |
-| Post-condition  | A empty diagram has been created<br />A blank graphic object has been create |
-| Basic flow      | 1. Application requests to create diagram to App API <br /> 2. App API requests Diagram Controller to create a diagram <br /> 3. Diagram  Controller create a Diagram object <br /> 4. Diagram Controller request Graphic Controller to create a Graphic object <br /> Graphic Controller create a Graphic object <br /> Graphic Controller register a callback to Graphic API |
-| Additional Flow |   |
-
-| **UC_02**          | Render diagram |
-|-----------------|---|
-| Description     | Rendering a diagram object to Bitmap object  |
-| Actor           | Render API Provider  |
-| Pre-condition   | Diagram has been loaded / created  |
-| Post-condition  | A Bitmap object has been created  |
-| Basic flow      |   |
-| Additional Flow |   |
-
-| **UC_03** | **Import ADL file** |
-|---|---|
-| Description | Read a ADL file and convert it to a Diagram object |
-| Actor | ADL Application |
-| Pre-condition | None |
-| Post-condition | A Diagram object has been created |
-| Basic flow | 1. ADL Application request App API to import an ADL file<br>2. App API requests ADL File Controller to import an ADL file<br>3. ADL File Controller reads the ADL file from storage<br>4. ADL File Controller saves the ADL file as a File object<br>5. ADL File Controller request File |
-| Additional Flow |  | 
-
 ## B. Quality Scenarios
+### B.1. Performance
+- QS_01: [Time to create Diagram] = [Time to show the Bitmap] - [Time ADL Application requests create Diagram]
+- QS_02: [Time to render Bitmap] = [Time to show the Bitmap] - [Time Graphic API Provider callback onRender]
+- QS_03: [Time to import ADL file] = [Time to show the Bitmap] - [Time ADL Application request import ADL file]
+- QS_03: [Time to 
+### B.2. Modifiability
+### B.3. Usability
 ## C. Quality Scenarios Analysis
 ## D. Candidate Architectures
 ## E. Candidate Architecture Evaluation
