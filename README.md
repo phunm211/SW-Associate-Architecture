@@ -31,7 +31,7 @@ Figure 2. shows the workflow of an ADL system. The input is an ADL file, which i
 
 Figure 3. The general pipeline of a common Graphic API (OpenGL)
 
-For the sake of rendering a diagram into a Bitmap object to display on a screen, or saving it as a picture, it is required to use a Graphic API. Figure 3. illustrates the general pipeline of a common Graphic API. In general, we can provide information of 3D coordinates, geometries and texture materials (fragment), and then the graphic pipeline transforms these into colored 2D pixels on the screen parallel on GPU.
+For the sake of rendering a diagram into a Bitmap object to display on a screen, or saving it as a picture, it is required to use a Graphic API. Figure 3. illustrates the general pipeline of a common Graphic API. In general, we can provide information of 3D coordinates, geometries and texture materials (fragment), and then the graphic pipeline transforms these into colored 2D pixels on the screen by GPU parallelly.
 
 ![SystemBoundary drawio](img/SystemBoundary.drawio.png)
 
