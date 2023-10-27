@@ -61,6 +61,21 @@ Functional requirements of this project are described in Figure 5. Use case "UC_
 ## 4. Modules
 # Appendix
 ## A. Domain Model
+![img](img/usecases_detail/Create%20Diagram.drawio.png)
+
+![img](img/usecases_detail/Render%20Bitmap.drawio.png)
+
+![img](img/usecases_detail/ImportADLfile.drawio.png)
+
+![img](img/usecases_detail/AddEditElement.drawio.png)
+
+![img](img/usecases_detail/UpdateElement.drawio.png)
+
+![img](img/usecases_detail/RemoveElement.drawio.png)
+
+![img](img/usecases_detail/SaveDiagramAsImage.drawio.png)
+
+![img](img/usecases_detail/SaveDiagramAsADLfile.drawio.png)
 
 
 
