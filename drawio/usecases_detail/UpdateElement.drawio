@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T16:23:42.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.69" etag="w-BsNrJaXicE2RCs8imr" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:40:51.120Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Safari/537.36" etag="HYyhP6JfvPFtVkxgXg_K" version="22.0.8" type="github">
   <diagram name="Page-1" id="zBqm8ygghPVLinz1BmMf">
-    <mxGraphModel dx="1206" dy="1802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1394" dy="1847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-3" value="Element Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;size=90;" parent="1" vertex="1">
+        <mxCell id="G-GRrxJtMZ8-qGgRV_3n-3" value="Diagram Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;size=90;" parent="1" vertex="1">
           <mxGeometry x="360" y="10" width="80" height="500" as="geometry" />
         </mxCell>
         <mxCell id="G-GRrxJtMZ8-qGgRV_3n-2" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;App API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;size=80;" parent="1" vertex="1">
