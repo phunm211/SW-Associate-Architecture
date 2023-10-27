@@ -51,6 +51,9 @@ In the below table, we illustrate the Business Driver related to our system.
 ## 2. Requirements
 ### 2.1. Functional Requirements
 ![UseCase drawio](img/UseCase.drawio.png)
+
+Figure 5. Use Case Diagram
+
 Functional requirements of this project are described in Figure 5. Use case "UC_03: Render Bitmap" takes part as the final step of all use cases related to changes in the Diagram object. Besides, "UC_07: Save as Image" and "UC_08: Save as ADL file" have to write data to Storage, but in different file formats.
 ### 2.2. Non-functional Requirements
 ### 2.3. Quality Attributes
