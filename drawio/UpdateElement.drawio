@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T04:46:30.875Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Safari/537.36" etag="1fz2Gjn7jL5Pywlsn2Fk" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T04:49:02.935Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Safari/537.36" etag="7IyvZ6cQCRaaBvyZ01ZK" version="22.0.8" type="github">
   <diagram name="Page-1" id="wwmzQwGy2WVfqCxfGOJC">
     <mxGraphModel dx="1394" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,20 +19,20 @@
         <mxCell id="eDvLhsXWexeAyYfK2yH7-5" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="94" y="54" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-6" value="1. Add Element" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-2" edge="1">
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-6" value="1. Update Element" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="120" y="160" as="sourcePoint" />
             <mxPoint x="200" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-8" value="2. Add Element" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-3" edge="1">
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-8" value="2. Update Element" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-3" edge="1">
           <mxGeometry x="0.0042" width="80" relative="1" as="geometry">
             <mxPoint x="240" y="200" as="sourcePoint" />
             <mxPoint x="320" y="200" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-9" value="3. Add Element to Diagram" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=elbowEdgeStyle;" parent="1" edge="1">
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-9" value="3. Update Element on Diagram" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=elbowEdgeStyle;" parent="1" edge="1">
           <mxGeometry x="0.125" width="80" relative="1" as="geometry">
             <mxPoint x="360" y="240" as="sourcePoint" />
             <mxPoint x="360" y="280" as="targetPoint" />
@@ -42,16 +42,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GsFt3-ihDExQOgljCO5m-2" value="4. Render Bitmap (UC_02)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-4" edge="1">
+        <mxCell id="GsFt3-ihDExQOgljCO5m-2" value="4. Register callbacks" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="360" y="320" as="sourcePoint" />
             <mxPoint x="440" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GsFt3-ihDExQOgljCO5m-3" value="5. Return Bitmap" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-1" edge="1">
+        <mxCell id="GsFt3-ihDExQOgljCO5m-3" value="5. RenderBitmap (UC_02)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="360" as="sourcePoint" />
-            <mxPoint x="400" y="360" as="targetPoint" />
+            <mxPoint x="360" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
