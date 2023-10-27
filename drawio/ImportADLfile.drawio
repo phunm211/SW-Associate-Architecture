@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T04:41:02.160Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Safari/537.36" etag="oAPOMuSznXOyhGuiVhUP" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T04:44:06.118Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/22.0 Chrome/111.0.5563.116 Safari/537.36" etag="9IlD5vd_3xAf8JHXvoXP" version="22.0.8" type="github">
   <diagram name="Page-1" id="wwmzQwGy2WVfqCxfGOJC">
-    <mxGraphModel dx="797" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1394" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,44 +19,39 @@
         <mxCell id="eDvLhsXWexeAyYfK2yH7-5" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="94" y="54" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-6" value="1. Change Element on Diagram" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-2" edge="1">
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-6" value="1. Import ADL file" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="120" y="160" as="sourcePoint" />
             <mxPoint x="200" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-8" value="2. onChangeElement callback" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" parent="1" target="eDvLhsXWexeAyYfK2yH7-3" edge="1">
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-8" value="2. Import ADL file" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="eDvLhsXWexeAyYfK2yH7-3" edge="1">
           <mxGeometry x="0.0042" width="80" relative="1" as="geometry">
             <mxPoint x="240" y="200" as="sourcePoint" />
             <mxPoint x="320" y="200" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-9" value="5. Render &amp;amp; save Bitmap" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=elbowEdgeStyle;" parent="1" edge="1">
+        <mxCell id="eDvLhsXWexeAyYfK2yH7-9" value="3. Convert ADL file to Diagram" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=elbowEdgeStyle;" parent="1" edge="1">
           <mxGeometry x="0.125" width="80" relative="1" as="geometry">
-            <mxPoint x="360" y="320" as="sourcePoint" />
-            <mxPoint x="360" y="360" as="targetPoint" />
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="340" />
+              <mxPoint x="420" y="260" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1" target="eDvLhsXWexeAyYfK2yH7-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="240" as="sourcePoint" />
-            <mxPoint x="360.02380952380963" y="280" as="targetPoint" />
+        <mxCell id="GsFt3-ihDExQOgljCO5m-2" value="4. Render Bitmap (UC_02)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="eDvLhsXWexeAyYfK2yH7-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eDvLhsXWexeAyYfK2yH7-12" value="3. Register callback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="eDvLhsXWexeAyYfK2yH7-11" vertex="1" connectable="0">
-          <mxGeometry x="-0.0426" y="-2" relative="1" as="geometry">
-            <mxPoint y="-12" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="STC4kG5-5ZRE_NUk4pNN-1" value="4. onRender callback" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="eDvLhsXWexeAyYfK2yH7-3">
+        <mxCell id="GsFt3-ihDExQOgljCO5m-3" value="5. Return Bitmap" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="eDvLhsXWexeAyYfK2yH7-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="280" as="sourcePoint" />
-            <mxPoint x="400" y="280" as="targetPoint" />
+            <mxPoint x="480" y="360" as="sourcePoint" />
+            <mxPoint x="400" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
