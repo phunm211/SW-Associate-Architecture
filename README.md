@@ -88,9 +88,22 @@ Figure illustrates the operational behavior for "UC_01: Create Diagram"
 - QS_01: [Time to create Diagram] = [Time to show the Bitmap] - [Time ADL Application requests create Diagram]
 - QS_02: [Time to render Bitmap] = [Time to show the Bitmap] - [Time Graphic API Provider callback onRender]
 - QS_03: [Time to import ADL file] = [Time to show the Bitmap] - [Time ADL Application request import ADL file]
-- QS_03: [Time to 
+- QS_04: [Time to add Element] = [Time to show the Bitmap] - [Time ADL Application request add Element]
+- QS_05: [Time to update Element] = [Time to show the Bitmap] - [Time ADL Application request update Element]
+- QS_06: [Time to remove Element] = [Time to show the Bitmap] - [Time ADL Application request remove Element]
+- QS_07: [Time to save Diagram as Image] = [Time after finish saving Image] - [Time ADL Application request save Diagram as Image]
+- QS_08: [Time to save Diagram as ADL file] = [Time after finish saving ADL file] - [Time ADL Application request save Diagram as ADL file]
 ### B.2. Modifiability
+- QS_09: Image format change
+- QS_10: ADL file format change
+- QS_11: Graphic API Provider change
+- QS_12: Diagram type change
+- QS_13: Number of active diagram change
 ### B.3. Usability
+- QS_14: Syntax error check
+- QS_15: Notify user when file overwriting an exist file/image
+### B.4. Security
+- QS_16: File can be encrypted and decrypted by Digital Right Management (DRM)
 ## C. Quality Scenarios Analysis
 ## D. Candidate Architectures
 ## E. Candidate Architecture Evaluation
