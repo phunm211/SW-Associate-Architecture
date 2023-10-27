@@ -61,6 +61,8 @@ Functional requirements of this project are described in Figure 5. Use case "UC_
 ## 4. Modules
 # Appendix
 ## A. Domain Model
+![img](img/usecases_detail/DomainModel.drawio.png)
+
 ![img](img/usecases_detail/Create%20Diagram.drawio.png)
 
 ![img](img/usecases_detail/Render%20Bitmap.drawio.png)
