@@ -127,14 +127,15 @@ Figure illustrates the operational behavior for "UC_01: Create Diagram"
 |  | QS_16 |  | L | H | QA_08 |
 |  | QS_17 |  | H | H | QA_02 |
 ## D. Candidate Architectures
-### D.1. CA_01:
-### D.2. CA_02:
-### D.3. CA_03:
-### D.4. CA_04:
-### D.5. CA_05:
-### D.6. CA_06:
-### D.7. CA_07:
-### D.8. CA_08:
+### D.1. Quality
+## D.1.1. CA_01:
+## D.1.2. CA_02:
+## D.1.3. CA_03:
+## D.1.4. CA_04:
+## D.1.5. CA_05:
+## D.1.6. CA_06:
+## D.1.7. CA_07:
+## D.1.8. CA_08:
 ## E. Candidate Architecture Evaluation
 ## F. Architecture Design
 ## G. Architecture Evaluation (ATAM)
