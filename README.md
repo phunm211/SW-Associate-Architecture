@@ -109,8 +109,7 @@ Figure illustrates the operational behavior for "UC_01: Create Diagram"
 ## C. Quality Scenarios Analysis
 | **Category** | **ID** | **Scenario** | **Importance** | **Difficult** | **Requirement** |
 |---|---|---|---|---|---|
-| Performance | QS_01 |  | H | L |  |
-|  | QS_01 |  | H | L | NFR 05 |
+| Performance | QS_01 |  | H | L | NFR_05 |
 |  | QS_02 |  | H | H | QA_01 |
 |  | QS_03 |  | H | M | NFR_04 |
 |  | QS_04 |  | H | L | NFR_01 |
