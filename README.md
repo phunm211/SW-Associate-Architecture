@@ -102,27 +102,31 @@ Figure illustrates the operational behavior for "UC_01: Create Diagram"
 ### B.3. Usability
 - QS_14: Syntax error check
 - QS_15: Notify user when file overwriting an exist file/image
-### B.4. Security
+### B.4. Privacy
 - QS_16: File can be encrypted and decrypted by Digital Right Management (DRM)
+### B.5. Reliability
+- QS_17: Diagram recover when system failed
 ## C. Quality Scenarios Analysis
 | **Category** | **ID** | **Scenario** | **Importance** | **Difficult** | **Requirement** |
 |---|---|---|---|---|---|
 | Performance | QS_01 |  | H | L |  |
-|  | QS_02 |  | H | H |  |
-|  | QS_03 |  | H | M |  |
-|  | QS_04 |  | H | L |  |
-|  | QS_05 |  | H | L |  |
-|  | QS_06 |  | H | L |  |
-|  | QS_07 |  | L | H |  |
+|  | QS_01 |  | H | L | NFR 05 |
+|  | QS_02 |  | H | H | QA_01 |
+|  | QS_03 |  | H | M | NFR_04 |
+|  | QS_04 |  | H | L | NFR_01 |
+|  | QS_05 |  | H | L | NFR_02 |
+|  | QS_06 |  | H | L | NFR_03 |
+|  | QS_07 |  | L | H | QA_07 |
 |  | QS_08 |  | L | L |  |
-|  | QS_09 |  | H | H |  |
-|  | QS_10 |  | H | H |  |
-|  | QS_11 |  | M | H |  |
-|  | QS_12 |  | H | M |  |
-|  | QS_13 |  | H | M |  |
-|  | QS_14 |  | H | H |  |
+|  | QS_09 |  | H | H | QA_03 |
+|  | QS_10 |  | H | H | QA_04 |
+|  | QS_11 |  | M | H | QA_06 |
+|  | QS_12 |  | H | M | NFR_06 |
+|  | QS_13 |  | H | M | NFR_07 |
+|  | QS_14 |  | H | H | QA_05 |
 |  | QS_15 |  | L | L |  |
-|  | QS_16 |  | L | H |  |
+|  | QS_16 |  | L | H | QA_08 |
+|  | QS_17 |  | H | H | QA_02 |
 ## D. Candidate Architectures
 ## E. Candidate Architecture Evaluation
 ## F. Architecture Design
