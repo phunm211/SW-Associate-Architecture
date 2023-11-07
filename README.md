@@ -128,7 +128,10 @@ Figure illustrates the operational behavior for "UC_01: Create Diagram"
 |  | QS_17 |  | H | H | QA_02 |
 ## D. Candidate Architectures
 ### D.1. Quality
-#### D.1.1. CA_01:
+#### D.1.1. NFR_01, NFR_02 & NFR_03: Add/Update/Remove Element performance (UC_04, UC_05 & UC_06)
+To add/update/remove an Element in the Diagram, the system loads the choosen Diagram, then perform a modification to the Element on it. Then, system updates the Diagram and saves it back. Finally, a callback request is made to trigger UC_02 with the aim of rendering the updated Element. This action is frequently called, because it based on user-interaction on the Application. When multiple requests are sent to Framework, the overall performance can be improved in several ways.
+![image](CA/CA1.drawio.png)
+First, each requests can be process parallely on the system. A Thread object and its Thread Controller is added to Framework to manage threads.
 #### D.1.2. CA_02:
 #### D.1.3. CA_03:
 #### D.1.4. CA_04:
