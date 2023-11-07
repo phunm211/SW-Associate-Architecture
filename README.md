@@ -136,6 +136,8 @@ In CA_01, each requests can be process parallely on the system. A Thread object 
 In another way, requests can be process as in a pipeline. Thread Controller does not execute a Thread right after receiving a request -> CA_0x. It pushes that request into the last position of a Queue -> CA_05. A Task Handler pops the request on the first position of Queue, then request a Thread to execute it. There are two phase of an update Element task: Updating Element in Diagram and Requesting Render callback. After the first phase is finished, Task Handler will pickup the next request to process it. By this way, Diagram object does not need to be synced.
 
 #### D.1.2. NFR_04: Improve ADL file import performance
+![image](CA/NFR_04.drawio.png)
+In case of importing an ADL file which contains many Elements, 
 #### D.1.3. CA_03:
 #### D.1.4. CA_04:
 #### D.1.5. CA_05:
