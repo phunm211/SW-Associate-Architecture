@@ -129,14 +129,19 @@ Figure illustrates the operational behavior for "UC_01: Create Diagram"
 ## D. Candidate Architectures
 ### D.1. Quality
 #### D.1.1. NFR_01, NFR_02 & NFR_03: Add/Update/Remove Element performance (UC_04, UC_05 & UC_06)
-To add/update/remove an Element in the Diagram, the system loads the choosen Diagram, then perform a modification to the Element on it. Then, system updates the Diagram and saves it back. Finally, a callback request is made to trigger UC_02 with the aim of rendering the updated Element. This action is frequently called, because it based on user-interaction on the Application. When multiple requests are sent to Framework, the overall performance can be improved in multi-processing ways.
+To add/update/remove an Element in the Diagram, the system loads the chosen Diagram, then performs a modification to the Element on it. Then, the system updates the Diagram and saves it back. Finally, a callback request is made to trigger UC_02 with the aim of rendering the updated Element. This action is frequently called, because it is based on user interaction on the Application. When multiple requests are sent to Framework, the overall performance can be improved in multi-processing ways.
+
 ![image](CA/CA1.drawio.png)
-In CA_01, each requests can be process parallely on the system. A Thread object and its Thread Controller is added to Framework to manage threads. However, this design make another problems that updated Diagram data across threads need to be sync before rendering. To solve it, following CA_07, we can make a deep copy for each Diagram object in individual threads. Then in CA_03, we place a periodical sync for merge all changes among threads. Beside, the limit of syncing threads needed to be set to keep the a stable performance of Framework -> CA_04. The leftover threads will be synced in the next routine, or dropped if it reaches the execution time limit for each thread -> CA_02.
+
+In CA_01, each request can be processed parallelly on the system. A Thread object and its Thread Controller are added to the Framework to manage threads. However, this design makes another problem that updated Diagram data across threads need to be synced before rendering. To solve it, following CA_07, we can make a deep copy for each Diagram object in individual threads. Then in CA_03, we place a periodical sync for merge all changes among threads. Besides, the limit of syncing threads needed to be set to keep a stable performance of Framework -> CA_04. The leftover threads will be synced in the next routine, or dropped if it reaches the execution time limit for each thread -> CA_02.
+
 ![image](CA/Pipeline.drawio.png)
-In another way, requests can be process as in a pipeline. Thread Controller does not execute a Thread right after receiving a request -> CA_0x. It pushes that request into the last position of a Queue -> CA_05. A Task Handler pops the request on the first position of Queue, then request a Thread to execute it. There are two phase of an update Element task: Updating Element in Diagram and Requesting Render callback. After the first phase is finished, Task Handler will pickup the next request to process it. By this way, Diagram object does not need to be synced.
+
+In another way, requests can be processed as in a pipeline. Thread Controller does not execute a Thread right after receiving a request -> CA_0x. It pushes that request into the last position of a Queue -> CA_05. A Task Handler pops the request on the first position of Queue, then requests a Thread to execute it. There are two phases of an update Element task: Updating the Element in Diagram and Requesting Render callback. After the first phase is finished, Task Handler will pickup the next request to process it. In this way, the Diagram object does not need to be synced.
 
 #### D.1.2. NFR_04: Improve ADL file import performance
 ![image](CA/NFR_04.drawio.png)
+
 In case of importing an ADL file which contains many Elements, 
 #### D.1.3. CA_03:
 #### D.1.4. CA_04:
