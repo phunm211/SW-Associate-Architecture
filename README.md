@@ -154,13 +154,22 @@ Render Bitmap is one of the crucial functions of this Framework because its perf
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Image_pyramid.svg/800px-Image_pyramid.svg.png)
 
-The bitmap can also be rendered smaller to increase the rendering speed. However, it has a poor quality, so we should render it in a pyramid multi-scale -> CA_12.
+The bitmap can also be rendered smaller to increase the rendering speed. However, it has poor quality, so we should render it in a pyramid multi-scale -> CA_12.
 
+![image](CA/QA_01_2.drawio.png)
 
-#### D.1.5. CA_05:
-#### D.1.6. CA_06:
-#### D.1.7. CA_07:
-#### D.1.8. CA_08:
+At the final step of the Rendering Bitmap sequence, it always saves the rendered Bitmap. We can make a modification that executes it as a scheduled task.
+
+#### D.1.5. QA_07: Improve Bitmap saving performance
+
+The bitmap can be encoded and saved by using multi-threads -> CA_13. However, it depends on the concurrency supportability of the image format.
+
+### D.2. Modifiability
+#### D.2.1. NFR_06: Modifiability of supported Diagram
+
+To adapt with the modification of the diagram, we create a new object called Diagram Config -> CA_16. Diagram Config provides an interface to abstract the functions of Config namely ReadConfig, Select Theme, etc... -> CA_17. Each Diagram type's config will be described as a subclass of DiagramConfig.
+
+#### D.2.2. CA_08:
 ## E. Candidate Architecture Evaluation
 ## F. Architecture Design
 ## G. Architecture Evaluation (ATAM)
