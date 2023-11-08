@@ -137,13 +137,16 @@ In CA_01, each request can be processed parallelly on the system. A Thread objec
 
 ![image](CA/Pipeline.drawio.png)
 
-In another way, requests can be processed as in a pipeline. Thread Controller does not execute a Thread right after receiving a request -> CA_0x. It pushes that request into the last position of a Queue -> CA_05. A Task Handler pops the request on the first position of Queue, then requests a Thread to execute it. There are two phases of an update Element task: Updating the Element in Diagram and Requesting Render callback. After the first phase is finished, Task Handler will pickup the next request to process it. In this way, the Diagram object does not need to be synced.
+In another way, requests can be processed as in a pipeline. Thread Controller does not execute a Thread right after receiving a request -> CA_0x. It pushes that request into the last position of a Queue -> CA_05. Thread Controller pops the request on the first position of Queue, then requests a Thread to execute it. There are two phases of an update Element task: Updating the Element in Diagram and Requesting Render callback. After the first phase is finished, Thread Controller will pickup the next request to process it. In this way, the Diagram object does not need to be synced.
 
 #### D.1.2. NFR_04: Improve ADL file import performance
 ![image](CA/NFR_04.drawio.png)
 
-In case of importing an ADL file which contains many Elements, 
-#### D.1.3. CA_03:
+In case of importing an ADL file that contains many Elements, we can make it become a loop that reads ADL file line-by-line and processes it -> CA_06. This method reduces the waiting time to get the result, but it requires more callbacks to Graphic API.
+#### D.1.3. NFR_05: Improve create Diagram performance
+![image](CA/NFR_05.drawio.png)
+
+Because creating a new Diagram does not need drawing any Element on Diagram, so it's possible to change the workflow order as: Move step Create Diagram to the final step. The Diagram Controller will register a render callback right after receiving a request to create Diagram.
 #### D.1.4. CA_04:
 #### D.1.5. CA_05:
 #### D.1.6. CA_06:
