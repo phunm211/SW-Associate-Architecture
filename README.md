@@ -183,9 +183,25 @@ The Image Encoder module is split from the Bitmap Controller -> CA_19. To minimi
 The ADL File module is split from Diagram Controller -> CA_21. To minimize changes when adding a new ADL file format, we create two interfaces for ADL File Reader and ADL File Writer -> CA_22. An adapter for each type of ADL file format is implemented -> CA_2x
 
 #### D.2.4. QA_06: Graphic API Provider change
+![image](CA/QA_06.drawio.png)
+</br>
+Graphic API can be implemented in an Adapter Pattern, which allows it to adapt with the change of Graphic API Provider in the future -> CA_26.
 
+### D.3. Others
+#### D.3.1. QA_02: Diagram recovery after system crash
+The framework can save the current working Diagram by call the feature Save as ADL file, then save -> CA_27. After the system recovers and opens the Framework again, it loads the latest version of the Diagram
+</br>
+In another way, Save Bitmap and Save ADL File can to be considered as a regular task -> CA_28. A Task object is created, and it would be the parent class of SaveBitmapTask, SaveADLFileTask, ModifyElementTask, CreateDiagramTask and RenderBitmapTask -> CA_2x. A Scheduler object is also necessary to push to Task Queue SaveADLFileTask and SaveBitmapTask regularly -> CA_2x.
 
+#### D.3.2. QA_05: Syntax Error check
+</br>
+To provide a usability function that checks the syntax error of ADL files, we can execute the function Import ADL file. This task can be considered as multiple sequential smaller tasks including CreateDiagramTask and ModifyElementTask -> CA_2x. If any task on that sequence has an error, it will return the Element that has an error and its line number on the ADL File.
+</br>
+On the other hand, we can create a dedicated SyntaxCheckTask to do it -> CA_2x. This task will be handled in Syntax Analyzer, which is a portion of ADL File Reader so Syntax Analyzer can be split as a module -> CA_2x.
 
+#### D.3.3. QA_08: ADL file encryption
+
+An Encryption module, which contains an Encrypter and an Decrypter can be added to support file encryption -> CA_30. It also change the workflow of reading and writing an ADL file: File needs to check and be decrypted before be loading, and be encrypted before writing to file -> CA_3x.
 ## E. Candidate Architecture Evaluation
 ## F. Architecture Design
 ## G. Architecture Evaluation (ATAM)
