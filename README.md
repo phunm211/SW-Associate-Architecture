@@ -168,9 +168,9 @@ The bitmap can be encoded and saved by using multi-threads -> CA_13. However, it
 #### D.2.1. NFR_06: Modifiability of supported Diagram
 ![image](CA/NFR_06.drawio.png)
 </br>
-To adapt with the modification of the diagram, we create a new object called Diagram Config -> CA_16. Diagram Config provides an interface to abstract the functions of Config namely ReadConfig, Select Theme, etc... -> CA_17. Each Diagram type's config can be described as a subclass of DiagramConfig.
+To adapt with the modification of the diagram, each Diagram types can be described as a subclass of Diagram -> CA_1x. Diagram provides an interface to Application -> CA_1x.
 </br>
-Element objects can also be polymorphism as child type: Component, Connector, System, Port and Role -> CA_1x
+Element objects can also be polymorphism as child type: Component, Connector, System, Port and Role -> CA_1x. It also providé an interface to Application -> CA_1x
 
 #### D.2.2. QA_03: Image format change
 ![image](CA/QA_03.drawio.png)
