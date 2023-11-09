@@ -189,9 +189,9 @@ Graphic API can be implemented in an Adapter Pattern, which allows it to adapt w
 
 ### D.3. Others
 #### D.3.1. QA_02: Diagram recovery after system crash
-The framework can save the current working Diagram by call the feature Save as ADL file, then save -> CA_27. After the system recovers and opens the Framework again, it loads the latest version of the Diagram
+The framework can save the current working Diagram by calling the feature Save as ADL file, then save -> CA_27. After the system recovers and opens the Framework again, it loads the latest version of the Diagram
 </br>
-In another way, Save Bitmap and Save ADL File can to be considered as a regular task -> CA_28. A Task object is created, and it would be the parent class of SaveBitmapTask, SaveADLFileTask, ModifyElementTask, CreateDiagramTask and RenderBitmapTask -> CA_2x. A Scheduler object is also necessary to push to Task Queue SaveADLFileTask and SaveBitmapTask regularly -> CA_2x.
+In another way, Save Bitmap and Save ADL File can be considered as a regular task -> CA_28. A Task object is created, and it would be the parent class of SaveBitmapTask, SaveADLFileTask, ModifyElementTask, CreateDiagramTask and RenderBitmapTask -> CA_2x. A Scheduler object is also necessary to push to Task Queue SaveADLFileTask and SaveBitmapTask regularly -> CA_2x.
 
 #### D.3.2. QA_05: Syntax Error check
 </br>
@@ -201,7 +201,7 @@ On the other hand, we can create a dedicated SyntaxCheckTask to do it -> CA_2x. 
 
 #### D.3.3. QA_08: ADL file encryption
 
-An Encryption module, which contains an Encrypter and an Decrypter can be added to support file encryption -> CA_30. It also change the workflow of reading and writing an ADL file: File needs to check and be decrypted before be loading, and be encrypted before writing to file -> CA_3x.
+An Encryption module, which contains an Encrypter and a Decrypter can be added to support file encryption -> CA_30. It also changes the workflow of reading and writing an ADL file: File needs to be checked, decrypted before loading, and encrypted before writing to file -> CA_3x.
 ## E. Candidate Architecture Evaluation
 ## F. Architecture Design
 ## G. Architecture Evaluation (ATAM)
