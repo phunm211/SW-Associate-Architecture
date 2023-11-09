@@ -178,6 +178,8 @@ Element objects can also be polymorphism as child type: Component, Connector, Sy
 The Image Encoder module is split from the Bitmap Controller -> CA_19. To minimize the changes when adding a new image format, we create an interface for Image Encoder -> CA_20. However, implementing a codec inside the Framework might lead to a risk of patent infringement, so the Image Encoder module should be an add-on of the Framework system, which allow user to easily add or remove the image format they want -> CA_23.
 
 #### D.2.3. QA_04: ADL file format change
+![image](CA/QA_04.drawio.png)
+</br>
 The ADL File module is split from Diagram Controller -> CA_21. To minimize changes when adding a new ADL file format, we create two interfaces for ADL File Reader and ADL File Writer -> CA_22. An adapter for each type of ADL file format is implemented -> CA_2x
 
 #### D.2.4. QA_06: Graphic API Provider change
