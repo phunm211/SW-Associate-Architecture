@@ -166,13 +166,13 @@ The bitmap can be encoded and saved by using multi-threads -> CA_13. However, it
 
 ### D.2. Modifiability
 #### D.2.1. NFR_06: Modifiability of supported Diagram
-![image](NFR_06.drawio.png)
+![image](CA/NFR_06.drawio.png)
 To adapt with the modification of the diagram, we create a new object called Diagram Config -> CA_16. Diagram Config provides an interface to abstract the functions of Config namely ReadConfig, Select Theme, etc... -> CA_17. Each Diagram type's config can be described as a subclass of DiagramConfig.
 
 Element objects can also be polymorphism as child type: Component, Connector, System, Port and Role -> CA_1x
 
 #### D.2.2. QA_03: Image format change
-![image](QA_03.drawio.png)
+![image](CA/QA_03.drawio.png)
 The Image Encoder module is split from the Bitmap Controller -> CA_19. To minimize the changes when adding a new image format, we create an interface for Image Encoder -> CA_20. However, implementing a codec inside the Framework might lead to a risk of patent infringement, so the Image Encoder module should be an add-on of the Framework system, which allow user easily to add or remove the image format they want -> CA_23.
 
 ## E. Candidate Architecture Evaluation
